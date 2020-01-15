@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		63463A5823CF9ACF008BA031 /* PreviewDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63463A5723CF9ACF008BA031 /* PreviewDevice+.swift */; };
+		63463A8A23CFB0A2008BA031 /* YUPreviewDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463A6423CFAE79008BA031 /* YUPreviewDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* XCTestManifests.swift */; };
 		OBJ_41 /* YUPreviewDeviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* YUPreviewDeviceTests.swift */; };
@@ -49,6 +50,7 @@
 		63463A5723CF9ACF008BA031 /* PreviewDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreviewDevice+.swift"; sourceTree = "<group>"; };
 		63463A5E23CFA2FD008BA031 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		63463A6023CFA919008BA031 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		63463A6423CFAE79008BA031 /* YUPreviewDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUPreviewDevice.h; sourceTree = "<group>"; };
 		OBJ_12 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* YUPreviewDeviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YUPreviewDeviceTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_8 /* YUPreviewDevice */,
+				63463A6423CFAE79008BA031 /* YUPreviewDevice.h */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -132,6 +135,17 @@
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63463A8923CFB097008BA031 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63463A8A23CFB0A2008BA031 /* YUPreviewDevice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		"YUPreviewDevice::SwiftPMPackageDescription" /* YUPreviewDevicePackageDescription */ = {
@@ -152,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "YUPreviewDevice" */;
 			buildPhases = (
+				63463A8923CFB097008BA031 /* Headers */,
 				OBJ_21 /* Sources */,
 				OBJ_23 /* Frameworks */,
 			);

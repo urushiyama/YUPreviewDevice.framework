@@ -91,7 +91,7 @@ public extension PreviewDevice {
       Self.apple_Watch_Series4_40mm, Self.apple_Watch_Series4_44mm
     ]
     
-    static let latest_iOS_devices_with_defferent_ratio = [
+    public static let latest_iOS_devices_with_defferent_ratio = [
       Self.iPhone_11_Pro, Self.iPhone_11_Pro_Max,
       Self.iPad_7thGeneration, Self.iPad_Air_3rdGeneration,
       Self.iPad_Pro_11Inch, Self.iPad_Pro_12_9Inch_3rdGeneration,

@@ -5,7 +5,7 @@
 //  Created by urushiyama on 2020/J/16.
 //
 
-#import <Foundation/Foundation.h>
+#import <SwiftUI/SwiftUI.h>
 
 //! Project version number for YUPreviewDevice.
 FOUNDATION_EXPORT double YUPreviewDeviceVersionNumber;

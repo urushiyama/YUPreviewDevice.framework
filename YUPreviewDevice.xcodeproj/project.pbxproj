@@ -22,7 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		63463A5823CF9ACF008BA031 /* YUPreviewDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63463A5723CF9ACF008BA031 /* YUPreviewDevice.swift */; };
-		63463A8A23CFB0A2008BA031 /* YUPreviewDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463A6423CFAE79008BA031 /* YUPreviewDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63463A9523CFB363008BA031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63463A9423CFB363008BA031 /* AppDelegate.swift */; };
 		63463A9723CFB363008BA031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63463A9623CFB363008BA031 /* SceneDelegate.swift */; };
 		63463A9923CFB363008BA031 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63463A9823CFB363008BA031 /* ContentView.swift */; };
@@ -79,7 +78,6 @@
 		63463A5723CF9ACF008BA031 /* YUPreviewDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YUPreviewDevice.swift; sourceTree = "<group>"; };
 		63463A5E23CFA2FD008BA031 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		63463A6023CFA919008BA031 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		63463A6423CFAE79008BA031 /* YUPreviewDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUPreviewDevice.h; sourceTree = "<group>"; };
 		63463A9223CFB363008BA031 /* YUPreviewDeviceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUPreviewDeviceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63463A9423CFB363008BA031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63463A9623CFB363008BA031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -198,7 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_8 /* YUPreviewDevice */,
-				63463A6423CFAE79008BA031 /* YUPreviewDevice.h */,
 				63463AA723CFBBDD008BA031 /* Info.plist */,
 			);
 			name = Sources;
@@ -220,7 +217,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63463A8A23CFB0A2008BA031 /* YUPreviewDevice.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

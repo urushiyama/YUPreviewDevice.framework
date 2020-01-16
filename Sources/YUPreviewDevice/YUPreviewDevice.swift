@@ -8,6 +8,10 @@
 
 import SwiftUI
 
+public final class YUPreviewDevice {
+  public static let version = "v1.0.6"
+}
+
 @available(iOS 13.0, macOS 10.15, tvOS 13.2, watchOS 6.1, *)
 public extension PreviewDevice {
   // Product name list

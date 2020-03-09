@@ -2,6 +2,8 @@
 
 > Add pre-defined preview devices for SwiftUI.
 
+![Screenshot](/screenshot.png)
+
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/urushiyama/YUPreviewDevice)](https://github.com/urushiyama/YUPreviewDevice/releases/latest)
 [![LICENSE](https://img.shields.io/github/license/urushiyama/YUPreviewDevice)](https://github.com/urushiyama/YUPreviewDevice/tree/master/LICENSE)
 ![Platform](https://img.shields.io/badge/platform-ios%20%7C%20osx%20%7C%20watchos%20%7C%20tvos-darkgray?style=flat)

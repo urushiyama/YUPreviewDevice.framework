@@ -87,6 +87,7 @@
 		63463AA023CFB369008BA031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63463AA223CFB369008BA031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63463AA723CFBBDD008BA031 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		63DE86F42416250C001BBE8D /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		OBJ_12 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* YUPreviewDeviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YUPreviewDeviceTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -181,6 +182,7 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				63DE86F42416250C001BBE8D /* screenshot.png */,
 				63463A5E23CFA2FD008BA031 /* README.md */,
 				63463A6023CFA919008BA031 /* LICENSE */,
 				OBJ_6 /* Package.swift */,

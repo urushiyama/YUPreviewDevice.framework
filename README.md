@@ -10,12 +10,19 @@
 
 ## Install
 
-- From Swift Package Manager:
+- [WIP] From Swift Package Manager:
 
 1. Select File > Swift Packages > Add Package Dependency... in Menu Bar of Xcode.
 2. Enter `https://github.com/urushiyama/YUPreviewDevice` in the text field and press "Next".
 3. Select versions/branches what you want to install and press "Next".
 4. Press "Finish".
+
+- From Self-build:
+
+1. [Open this project's clone in Xcode](xcode://clone?repo=https%3A%2F%2Fgithub.com%2Furushiyama%2FYUPreviewDevice.framework).
+2. Select "YUPreviewDevice-Package" scheme.
+3. Select Product > Build in Menu Bar of Xcode.
+4. Copy Products/YUPreviewDevice.framework to the project where you want to import.
 
 ## Usage
 
